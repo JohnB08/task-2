@@ -60,6 +60,9 @@ h2 span {
   background-attachment: fixed;
   /* Seems with flexbox you don't need position:relative; since flexbox makes every background into separate boxes anyway so you don't need to differenciate between them for the text to show up correctly. */
 }
+.first {
+  justify-content: end;
+}
 .first,
 .fourth {
   background-image: url("./img/eagle.jpg");
@@ -127,6 +130,12 @@ img {
 @media only screen and (max-width: 768px) {
   body {
     font-size: 10px;
+  }
+  .first,
+  .second,
+  .third,
+  .fourth {
+    max-height: 50vh;
   }
 }
 /* This just makes the text abit smaller on smaller screens. Good way to practise using "em" for text. one variable changes everything. For now, I think I want to keep the fixed scroll on my phone, seems to work fine during testing.*/
