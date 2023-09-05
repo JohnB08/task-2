@@ -21,7 +21,7 @@ h2 {
   color: #354e01;
   padding: 0.417em 0.84em;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px #ab7600;
+  box-shadow: 0px 2px 3px #ab7600;
 }
 .header {
   color: #252525;
@@ -82,9 +82,9 @@ h2 span {
 /* boxes */
 .vertical-divider {
   width: 100%;
-  border-bottom: 3px solid goldenrod;
+  border-bottom: 3px solid #311d16;
   margin-top: 0;
-  box-shadow: 0px 2px 2px rgb(67, 57, 0);
+  box-shadow: 0px 2px 2px rgb(38, 20, 20);
   /* I could probably make something else to make this work, but this felt like a neat workaround for having that divider below the header element. */
 }
 .main {
@@ -137,7 +137,7 @@ img {
   .second,
   .third,
   .fourth {
-    max-height: 50vh;
+    max-height: 35vh;
   }
 }
 @media only screen and (min-width: 1280px) {
