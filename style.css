@@ -80,7 +80,7 @@ h2 span {
 }
 /* boxes */
 .vertical-divider {
-  width: 100vw;
+  width: 100%;
   border-bottom: 3px solid goldenrod;
   margin-top: 0;
   box-shadow: 0px 2px 2px rgb(67, 57, 0);
