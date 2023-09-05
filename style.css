@@ -27,14 +27,21 @@ h2 {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   box-shadow: none;
+  background-color: whitesmoke;
+  color: #252525;
 }
 h2 span {
   display: block;
-  background: linear-gradient(rgb(55, 129, 55), rgb(13, 73, 20));
+  background: url("./img/forest_trees_autumn.jpg");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  /* Visual Studio says this should work with the standard "background-clip" but it doesn't. */
-  font-size: 48px;
+  /* Visual Studio says this should work with the standard "background-clip" but it doesn't. how come?*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 80px;
+  /* This isn't very readable, but looks very cool. */
 }
 /* containers */
 
@@ -49,6 +56,7 @@ h2 span {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  /* Seems with flexbox you don't need position:relative; since flexbox makes every background into separate boxes anyway so you don't need to differenciate between them. */
 }
 .first,
 .fourth {
