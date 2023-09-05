@@ -11,11 +11,11 @@ h3 {
   font-weight: 700;
 }
 h3 {
-  font-size: 36px;
+  font-size: 1.5em;
 }
 h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 1.8em;
   background-color: rgb(56, 56, 56);
   color: whitesmoke;
   padding: 10px 20px;
@@ -41,7 +41,7 @@ h2 span {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  font-size: 120px;
+  font-size: 3em;
   /* This isn't very readable, but looks very cool. */
 }
 /* containers */
@@ -113,5 +113,9 @@ img {
   font-size: 14px;
   text-align: end;
 }
-
-/* Want to see how this looks on a phone before I cancel it with a @mediaquery. Gonna add it in if it turns out fine. */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
+/* This just makes the text abit smaller on smaller screens. Good way to practise using "em" sizing. */
