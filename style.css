@@ -139,4 +139,9 @@ img {
     max-height: 50vh;
   }
 }
+@media only screen and (min-width: 1280px) {
+  body {
+    font-size: 36px;
+  }
+}
 /* This just makes the text abit smaller on smaller screens. Good way to practise using "em" for text. one variable changes everything. For now, I think I want to keep the fixed scroll on my phone, seems to work fine during testing.*/
