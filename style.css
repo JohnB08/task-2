@@ -23,15 +23,16 @@ h2 {
   box-shadow: 0px 3px 5px black;
 }
 .header {
+  color: #252525;
+  background-color: whitesmoke;
   margin-bottom: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   box-shadow: none;
-  background-color: whitesmoke;
-  color: #252525;
 }
 h2 span {
   display: block;
+  font-size: 3em;
   background: url("./img/forest_trees_autumn.jpg");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -41,7 +42,6 @@ h2 span {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  font-size: 3em;
   /* This isn't very readable, but looks very cool. */
 }
 /* containers */
