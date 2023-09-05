@@ -2,10 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  color: #540b0e;
+  color: #311d16;
   font-size: 24px;
 }
 /* text formating */
+/* Fun fact about the colors, I used coolors.co's colorpicker to choose cool colors from the pictures I have to give everything a nice autumnal feel. */
 h2,
 h3 {
   font-weight: 700;
@@ -16,11 +17,11 @@ h3 {
 h2 {
   text-align: center;
   font-size: 1.8em;
-  background: #dedbd2;
-  color: #315d44;
+  background: #f2c76d;
+  color: #354e01;
   padding: 0.417em 0.84em;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px #dedbd2;
+  box-shadow: 0px 0px 10px #ab7600;
 }
 .header {
   color: #252525;
@@ -90,7 +91,7 @@ h2 span {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #fff3b0;
+  background-color: #d2975b;
   padding: 1.67em;
   text-align: center;
   flex-wrap: wrap;
