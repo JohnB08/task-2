@@ -32,7 +32,8 @@ h2 {
 }
 h2 span {
   display: block;
-  font-size: 3em;
+  font-size: 2em;
+  /* This had a compounding error, since the parent element allready had a font-size of 1.8em, this became 3 times 1.8 times 24 px, instead of 3 times 24px which i had intended. Now it's closer to what i had in mind. */
   background: url("./img/forest_trees_autumn.jpg");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
