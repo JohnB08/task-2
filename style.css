@@ -5,24 +5,28 @@ body {
   color: #252525;
   font-size: 20px;
 }
+/* text formating */
 h2,
 h3 {
   font-weight: 700;
 }
-h2 {
-  font-size: 36px;
-}
 h3 {
   font-size: 30px;
 }
-.container h2 {
+h2 {
   text-align: center;
-  margin: auto;
+  margin-bottom: 0;
+  font-size: 36px;
   background-color: rgb(56, 56, 56);
   color: whitesmoke;
   padding: 10px 20px;
   border-radius: 5px;
   box-shadow: 0px 2px 2px black;
+}
+.header {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: none;
 }
 h2 span {
   display: block;
@@ -32,9 +36,13 @@ h2 span {
   /* Visual Studio says this should work with the standard "background-clip" but it doesn't. */
   font-size: 48px;
 }
+/* containers */
 .container {
   display: flex;
   height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,7 +62,12 @@ h2 span {
 .third {
   opacity: 80%;
 }
-
+.vertical-divider {
+  width: 80vw;
+  border-bottom: 3px solid goldenrod;
+  margin-top: 0;
+  box-shadow: 0px 2px 2px rgb(67, 57, 0);
+}
 .main {
   display: flex;
   justify-content: space-around;
@@ -69,9 +82,7 @@ h2 span {
 .text-container {
   padding: 20px;
 }
-.text-last {
-  justify-content: center;
-}
+/* images */
 img {
   width: 40%;
   border-radius: 16px;
