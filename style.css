@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   color: #252525;
-  font-size: 20px;
+  font-size: 24px;
 }
 /* text formating */
 h2,
@@ -11,17 +11,17 @@ h3 {
   font-weight: 700;
 }
 h3 {
-  font-size: 30px;
+  font-size: 36px;
 }
 h2 {
   text-align: center;
   margin-bottom: 0;
-  font-size: 36px;
+  font-size: 40px;
   background-color: rgb(56, 56, 56);
   color: whitesmoke;
   padding: 10px 20px;
   border-radius: 5px;
-  box-shadow: 0px 2px 2px black;
+  box-shadow: 0px 3px 5px black;
 }
 .header {
   border-bottom-left-radius: 0;
@@ -40,7 +40,7 @@ h2 span {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  font-size: 80px;
+  font-size: 120px;
   /* This isn't very readable, but looks very cool. */
 }
 /* containers */
@@ -74,7 +74,7 @@ h2 span {
 }
 /* boxes */
 .vertical-divider {
-  width: 80vw;
+  width: 90vw;
   border-bottom: 3px solid goldenrod;
   margin-top: 0;
   box-shadow: 0px 2px 2px rgb(67, 57, 0);
