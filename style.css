@@ -20,15 +20,13 @@ h2 {
   background: #f2c76d;
   color: #354e01;
   padding: 0.417em 0.84em;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   box-shadow: 0px 2px 3px #ab7600;
+  margin-bottom: 0;
 }
 .header {
   color: #252525;
   background-color: whitesmoke;
-  margin-bottom: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
   box-shadow: none;
 }
 h2 span {
@@ -53,16 +51,13 @@ h2 span {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   /* Seems with flexbox you don't need position:relative; since flexbox makes every background into separate boxes anyway so you don't need to differenciate between them for the text to show up correctly. */
-}
-.first {
-  justify-content: end;
 }
 .first,
 .fourth {
