@@ -18,7 +18,7 @@ h2 {
   font-size: 1.8em;
   background-color: rgb(56, 56, 56);
   color: whitesmoke;
-  padding: 10px 20px;
+  padding: 0.417em 0.84em;
   border-radius: 5px;
   box-shadow: 0px 3px 5px black;
 }
@@ -86,7 +86,7 @@ h2 span {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 40px;
+  padding: 1.67em;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -94,7 +94,7 @@ h2 span {
   flex-direction: row-reverse;
 }
 .text-container {
-  padding: 20px;
+  padding: 0.84em;
 }
 /* images */
 .image-container {
@@ -110,12 +110,22 @@ img {
   box-shadow: -3px 3px 2px rgb(11, 53, 11);
 }
 .footer {
-  font-size: 14px;
+  font-size: 0.584em;
   text-align: end;
+  padding: 0.34em;
+}
+.footer a {
+  text-decoration: none;
+  font: inherit;
+  color: rgb(103, 155, 173);
+}
+.footer a:hover,
+.footer a:focus {
+  color: rgb(150, 53, 53);
 }
 @media only screen and (max-width: 768px) {
   body {
     font-size: 12px;
   }
 }
-/* This just makes the text abit smaller on smaller screens. Good way to practise using "em" sizing. */
+/* This just makes the text abit smaller on smaller screens. Good way to practise using "em" for text. one variable changes everything. For now, I think I want to keep the fixed scroll on my phone, seems to work fine during testing.*/
