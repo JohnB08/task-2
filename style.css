@@ -32,12 +32,12 @@ h2 {
 h2 span {
   display: block;
   font-size: 2em;
-  /* This had a compounding error, since the parent element allready had a font-size of 1.8em, this became 3 times 1.8 times 24 px, instead of 3 times 24px which i had intended. Now it's closer to what i had in mind. */
+  /* This had a compounding error, since the parent element allready had a font-size of 1.8em, this became 3 times 1.8 times 24 px, instead of 3 times 24px which i had intended. Now it's closer to what i had in mind. I need to read more on the different font-deppendant meassurements.*/
   background: url("./img/forest_trees_autumn.jpg");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /* Visual Studio says this should work with the standard "background-clip" but it doesn't. how come? I also tried making the text transparent by setting the opacity in the rgba value to 0, but that also didn't work. found some webkit workarounds, but this will mean it won't work on older browsers.*/
+  /* ?Visual Studio says this should work with the standard "background-clip" but it doesn't. how come? I also tried making the text transparent by setting the opacity in the rgba value to 0, but that also didn't work. found some webkit workarounds, but this will mean it won't work on all browsers.*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +57,7 @@ h2 span {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  /* Seems with flexbox you don't need position:relative; since flexbox makes every background into separate boxes anyway so you don't need to differenciate between them for the text to show up correctly. */
+  /* Seems with flexbox you don't need position:relative; and position:absolute; for the child since flexbox makes everything into boxes containing boxes. */
 }
 .first,
 .fourth {
@@ -80,7 +80,7 @@ h2 span {
   border-bottom: 0.125em solid #311d16;
   margin-top: 0;
   box-shadow: 0px 0.084em 0.084em rgb(38, 20, 20);
-  /* I could probably make something else to make this work, but this felt like a neat workaround for having that divider below the header element. */
+  /* I could probably make something else to make this work, but this felt like a neat workaround for having that divider below the header element, and let it bleed from one section to the other. */
 }
 .main {
   display: flex;
