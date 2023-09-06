@@ -110,6 +110,7 @@ img {
 .left-aligned-img {
   box-shadow: -0.125em 0.125em 0.084em rgb(11, 53, 11);
 }
+/* footer */
 .footer {
   font-size: 0.584em;
   text-align: end;
@@ -124,6 +125,7 @@ img {
 .footer a:focus {
   color: rgb(150, 53, 53);
 }
+/* phones and bigger screens */
 @media only screen and (max-width: 768px) {
   body {
     font-size: 12px;
