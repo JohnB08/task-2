@@ -103,7 +103,9 @@ h2 span {
   /* Technically this class isn't needed, it's a leftover after I experimented with image sizing and fitting, but I'm gonna keep it around because I might need it for more experimentation */
 }
 img {
-  width: 100%;
+  max-height: 15em;
+  /* This stops the tall image becoming overbearingly large, and lets it, too, scale with the page. */
+  max-width: 100%;
   border-radius: 0.67em;
   box-shadow: 0.125em 0.125em 0.084em rgb(11, 53, 11);
 }
