@@ -104,7 +104,7 @@ h2 span {
 }
 img {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 0.67em;
   box-shadow: 0.125em 0.125em 0.084em rgb(11, 53, 11);
 }
 .left-aligned-img {
@@ -118,7 +118,7 @@ img {
 .footer a {
   text-decoration: none;
   font: inherit;
-  color: rgb(103, 155, 173);
+  color: rgb(19, 105, 134);
 }
 .footer a:hover,
 .footer a:focus {
@@ -126,7 +126,7 @@ img {
 }
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
   .first,
   .second,
