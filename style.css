@@ -37,7 +37,7 @@ h2 span {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /* ?Visual Studio says this should work with the standard "background-clip" but it doesn't. how come? I also tried making the text transparent by setting the opacity in the rgba value to 0, but that also didn't work. found some webkit workarounds, but this will mean it won't work on all browsers.*/
+  /* ?Visual Studio says this should work with the standard "background-clip" but it doesn't. how come? I also tried making the text transparent by setting the opacity in the rgba value to 0, but that also didn't work. found some webkit workarounds, but this will mean it won't work on all browsers. This seems to be a -webkit- only effect afaik*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
